@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\WeatherForecastController.cs" />
+    <Compile Remove="IWeatherForecastService.cs" />
+    <Compile Remove="Migrations\20211231141607_Init.cs" />
+    <Compile Remove="Migrations\20211231141607_Init.Designer.cs" />
+    <Compile Remove="Migrations\20220103152728_2.cs" />
+    <Compile Remove="Migrations\20220103152728_2.Designer.cs" />
+    <Compile Remove="Migrations\20220103153731_3.cs" />
+    <Compile Remove="Migrations\20220103153731_3.Designer.cs" />
+    <Compile Remove="Migrations\20220103154044_4.cs" />
+    <Compile Remove="Migrations\20220103154044_4.Designer.cs" />
+    <Compile Remove="Migrations\20220103154531_5.cs" />
+    <Compile Remove="Migrations\20220103154531_5.Designer.cs" />
+    <Compile Remove="Migrations\20220104165855_6.cs" />
+    <Compile Remove="Migrations\20220104165855_6.Designer.cs" />
+    <Compile Remove="Migrations\20220106134150_7.cs" />
+    <Compile Remove="Migrations\20220106134150_7.Designer.cs" />
+    <Compile Remove="Migrations\20220106143805_8.cs" />
+    <Compile Remove="Migrations\20220106143805_8.Designer.cs" />
+    <Compile Remove="Migrations\20220106144455_9.cs" />
+    <Compile Remove="Migrations\20220106144455_9.Designer.cs" />
+    <Compile Remove="Migrations\20220106144508_10.cs" />
+    <Compile Remove="Migrations\20220106144508_10.Designer.cs" />
+    <Compile Remove="Migrations\20220106144633_11.cs" />
+    <Compile Remove="Migrations\20220106144633_11.Designer.cs" />
+    <Compile Remove="Migrations\20220106145111_12.cs" />
+    <Compile Remove="Migrations\20220106145111_12.Designer.cs" />
+    <Compile Remove="Migrations\20220106145356_13.cs" />
+    <Compile Remove="Migrations\20220106145356_13.Designer.cs" />
+    <Compile Remove="Migrations\20220106145532_14.cs" />
+    <Compile Remove="Migrations\20220106145532_14.Designer.cs" />
+    <Compile Remove="Migrations\20220106150131_15.cs" />
+    <Compile Remove="Migrations\20220106150131_15.Designer.cs" />
+    <Compile Remove="Migrations\RestaurantDbContextModelSnapshot.cs" />
+    <Compile Remove="WeatherForecast.cs" />
+    <Compile Remove="WeatherForecastService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.14.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+</Project>
